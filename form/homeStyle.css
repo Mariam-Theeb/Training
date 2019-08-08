@@ -1,0 +1,35 @@
+.header {
+	background: rgb(240, 229, 165);
+	padding: 30px;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+}
+
+a:link {
+	float: right;
+	text-decoration: none;
+	background-color: white;
+	color: #000;
+	font-size: 30px;
+}
+
+a:hover {
+	text-decoration: none;
+	border: 1px solid black;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	float: right;
+	background-color: white;
+	color: black;
+}

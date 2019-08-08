@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+#prev {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    left: 0%;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+}
+#next {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    padding: 20px;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    z-index: 10;
+}
